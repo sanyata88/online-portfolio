@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <title>Udacity-Portfolio-Sanhita</title>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="row">
+      <div class="col-md-6 col-sm-4 col-xs-4">
+        <img class="img-responsive logo" src="images/logo.png" alt="Portfolio logo">
+      </div>
+      <div class="col-md-6 col-sm-8 col-xs-8 text-right" id="head">
+        <h1>Sanhita Rath</h1>
+        <h4 class="text-thin">Front-end-Developer</h4>
+      </div>
+    </header>
+    <section class="menu">
+      <nav id="nav" class="menu">
+        <ul>
+          <li><a href="https://github.com/sanyata88/online-resume">About</a></li>
+          <li><a href="https://github.com/sanyata88/online-resume">Contact</a></li>
+          <li><a href="https://github.com/sanyata88/online-resume">Resume</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <hr>
+        <img class="img-responsive picture" src="images/creative.jpg" alt="creative">
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-md-12">
+        <h2 id="ref">Featured Work!!</h2>
+      </div>
+    </section>
+    <section class = "row">
+      <div class="col-md-4 col-sm-4">
+        <img class="img-responsive thumbnail" src="images/movies.png" alt="movie" data-toggle="modal" data-target="#project1">
+        <h3>Movie Website</h3>
+        <p><a href="https://github.com/sanyata88/movie-trailer">Project preview</a></p>
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <img class="img-responsive thumbnail" src="images/resume.png" alt="resume" data-toggle="modal" data-target="#project2">
+        <h3>Online Resume</h3>
+        <p><a href="https://github.com/sanyata88/online-resume">Project preview</a></p>
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <img class="img-responsive thumbnail" src="images/MadLibs.jpg" alt="game" data-toggle="modal" data-target="#project3">
+        <h3>MadLibs Quiz</h3>
+        <p><a href="https://github.com/sanyata88/MadLibs-quiz">Project preview</a></p>
+
+      </div>
+    </section>
+    <footer class="footer">
+      <hr>
+      <p class="footer">Connect with me by email: sanyata88@gmail.com or github: sanyata88</p>
+    </footer>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="Movie" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="Movie">Movie Trailer Website</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/movies.png" alt="movie">
+                  This was my first project during my course at Udacity. I learned a lot about HTML and CSS.
+                  Using classes in python I created a website showcasing all my favourite movies and their trailers.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="resume">Online Interactive Resume</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/resume.png" alt="resume">
+                  This project was part of front-end nanodegreecourse at Udacity.
+                  Helped me showcase my talents of web development through an online resume.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="lib" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="lib">MadLibs Quiz</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="images/MadLibs.jpg" alt="lib">
+                  I used python to design a quiz using MadLibs generator.
+                  I learnt a lot about using functions and loops.
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
